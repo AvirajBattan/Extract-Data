@@ -1,7 +1,5 @@
 #   RECREATING THE FILE WITH THE NAME OF NEW_A.PDF
-# 
-# from PyPDF2 import PdfFileWriter as w
-# pdf=w()
+
 
 sentence_file=open("output.txt","r")
 num_file=open("number_data.txt")

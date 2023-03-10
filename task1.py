@@ -43,15 +43,3 @@ with open("output.txt","w") as output_file:
 
 #PDF file contains 20000 sentences and our output file contains 20001. 1 extra sentence that we have is the heading of pdf file at first page which is "SENTENCES AND THEIR PERPLEXITY"
 
-
-
-# ============================TASK-2============================
-
-
-# 
-# pdf=PyPDF2.PdfFileWriter()
-# file=open("pavan.pdf","w")
-# for i in range(5):
-    # pdf.addBlankPage(219,297) #a4 size dimensions
-# pdf.write(file)
-# file.close()
